@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import Layout from "./components/Layout";
+import Textarea from "./components/common/Textarea";
 
 const styles = {
   layout: {
@@ -20,7 +21,10 @@ class App extends Component {
           <Navbar />
         </header>
         <Layout>
-          <div>text area y un boton</div>
+          <Textarea label={"מספרי טלפון"}></Textarea>
+          <Textarea label={"לינקים לסקרמספרי טלפון"}></Textarea>
+
+          <button>שלח וואטספ</button>
         </Layout>
       </React.Fragment>
     );

@@ -7,7 +7,7 @@ const styles = {
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
-    height: "100px",
+    height: "50px",
     justifyContent: "space-between",
     padding: "30px 50px",
     boxShadow: "0 2px 3px rgb(0,0,0,0.1)",

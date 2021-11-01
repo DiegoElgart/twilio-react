@@ -5,7 +5,7 @@ const styles = {
     color: "#0A283E",
     alignItems: "center",
     display: "flex",
-    flexDirection: "column",
+    flexDirection: "row",
     padding: "50px",
     margin: "20px",
     border: "2px solid",
