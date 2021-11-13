@@ -37,4 +37,4 @@ async function getUserData(id) {
   return userObj;
 }
 
-export default { login, getCurrentUser, logout, getJwt: getJwt, getUserData };
+export default { login, getCurrentUser, logout, getJwt, getUserData };

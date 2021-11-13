@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { Switch, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import Home from "./components/home";
-import Navbar from "./components/navbar";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
 import userService from "./services/userService";
 
 class App extends Component {
@@ -25,9 +25,9 @@ class App extends Component {
           <Navbar user={user} userName={userName} />
         </header>
         <main style={{ minHeight: 900 }}>
-          <Switch>
+          <Routes>
             <Route path='/' exact component={Home} />
-          </Switch>
+          </Routes>
         </main>
       </React.Fragment>
     );

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import Layout from "./components/Layout";
 import Textarea from "./components/common/Textarea";
+import Form from "./components/common/Form";
 
 const styles = {
   layout: {
