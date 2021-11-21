@@ -2,7 +2,7 @@
 import axios from "axios";
 import userService from "./userService";
 
-axios.defaults.headers.common["x-access-token"] = " userService.getJwt();";
+axios.defaults.headers.common["x-access-token"] = userService.getJwt();
 
 axios.interceptors.response.use(null, error => {
   const expectedError = error.response && error.response.status >= 403;
